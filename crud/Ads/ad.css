@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*HEADER*/
+
+header  {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*| Navigation |*/
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.WrapperForMainTitle {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.MainTitle {
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+
+
+
+/*SECTION*/
+
+section  {
+    height: 1024px;
+    width: 100%;    
+    margin: 0px;
+    padding: 0px;
+    background: url(/assets/bg.png);
+    background-size: cover;
+}
+
+.
+
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/*
+
+ТАБЛИЦА С ОБЪЯВЛЕНИЯМИ
+
+.Wrap {
+padding: 100px;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial;
+
+}
+
+.data {
+color: grey;
+font-size: 12px;
+}
+
+.WrapperCard {
+height: 1500px;
+width: 900px;
+margin: 0 auto;
+}
+
+.Cards {
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 1vw;
+height: 500px;
+width: 1500px;
+}
+*/
+
+
+.WrapperForCard {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.Card  {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 500px;
+    width: 1000px;
+    border: 1px solid black;
+    background: #ffff;
+    border-radius: 40px;
+    border-style: none;
+    transition: 0.5s;
+    text-align: center;
+}
+
+
+.inCard {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.img{
+
+    display: flex;
+    text-align: left;
+    flex-flow: column;
+    justify-content: left;
+
+
+}
